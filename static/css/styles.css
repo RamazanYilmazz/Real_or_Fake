@@ -1,0 +1,67 @@
+h1 {
+   color: rgb(68, 40, 4); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+button {
+    background-color: wheat;
+    color: black;
+    border-color: rgb(255, 208, 122);
+    border-radius: 20px;
+  }
+
+  button:hover {
+    background-color: black;
+    border-color: rgb(255, 208, 122);
+    color: wheat;
+  }
+  button:focus, button.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  }
+  button.disabled, button:disabled {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+  body{
+    justify-content: center;
+    background: linear-gradient(to right, rgb(185, 185, 185), rgb(182, 182, 171));
+    border-radius: 20px;
+    color: rgb(29, 28, 28);
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 10px;
+}
+
+.custom-file-upload:hover {
+  background-color: #333;
+}
+
+h3{
+    color: rgb(48, 48, 48);
+}

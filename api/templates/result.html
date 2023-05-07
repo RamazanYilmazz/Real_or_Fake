@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+
+        <title>{% block title %}{% endblock %}</title>
+        {% load bootstrap5 %}
+        {% bootstrap_css %}
+        {% bootstrap_javascript %}
+
+    </head>
+<body>
+  <div class="container">
+
+  <h1>Result</h1>
+  <h3>this is a {{ result }}</h3>
+  {% block content %}
+ {% endblock %}
+  </div>
+</body>
+</html>
